@@ -1,0 +1,11 @@
+let count = 0;
+
+function loop() {
+  if (count < 21000) {
+window.scrollBy(0, 100);
+    count++;
+    setTimeout(loop, 500); 
+  }
+}
+
+loop();
